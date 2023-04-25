@@ -121,27 +121,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.topnav}>
-        <div className = {styles.navlogo}>
-          <Link href="/">LangChain</Link>
-        </div>
-        <div className = {styles.navlinks}>
-          <a
-            href="https://langchain.readthedocs.io/en/latest/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Docs
-          </a>
-          <a
-            href="https://github.com/zahidkhawaja/langchain-chat-nextjs"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
-        </div>
-      </div>
       <main className={styles.main}>
         <div className={styles.cloud}>
           <div ref={messageListRef} className={styles.messagelist}>
@@ -205,11 +184,6 @@ export default function Home() {
                 )}
               </button>
             </form>
-          </div>
-          <div className = {styles.footer}>
-            <p>Powered by <a href="https://github.com/hwchase17/langchain" target="_blank" rel="noreferrer">
-                LangChain
-              </a>. Built by <a href="https://twitter.com/chillzaza_" target="_blank" rel="noreferrer">Zahid</a> and <a href="https://twitter.com/_seanyneutron" target="_blank" rel="noreferrer">Sean</a>.</p>
           </div>
         </div>
       </main>
